@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Defining XML -->
+
+
+<!-- Creating root element for the movie collection -->
+<MovieCollection>
+
+    <!-- Creating the first movie -->
+    <Movie>
+        <Title>Scent of a Woman</Title>
+        <Author>Dino Risi</Author>
+        <PublicationYear>1974</PublicationYear>
+        <Description>A young private is assigned to accompany a blind captain. It soon becomes clear that they are both complex personalities.</Description>
+    </Movie>
+
+    <!-- Creating the second movie -->
+    <Movie>
+        <Title>The Godfather</Title>
+        <Author>Francis Ford Coppola</Author>
+        <PublicationYear>1972</PublicationYear>
+        <Description>The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.</Description>
+    </Movie>
+
+    <!-- Creating the third movie -->
+    <Movie>
+        <Title>Pulp Fiction</Title>
+        <Author>Quentin Tarantino</Author>
+        <PublicationYear>1994</PublicationYear>
+        <!-- Adding CDATA for a made up descrption -->
+        <Description><![CDATA[The lives of two mob hitmen, a boxer?, a !gangster and his ----wife, and a pair of [diner] bandits {intertwine} in four tales of <violence> and redemption.]]></Description>
+    </Movie>
+
+<!-- Closing the collection-->
+</MovieCollection>
